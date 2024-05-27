@@ -13,5 +13,5 @@ async function fetchGreeting() {
 }
 
 fetchGreeting().then((greeting) => {
-  document.getElementById("greeting").textContent = greeting;
+  document.getElementById("greetings").textContent = greeting;
 });
